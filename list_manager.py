@@ -1,12 +1,14 @@
+# This is a simple list manager program that allows the user to add, display, and remove numbers from a list.
 list = []
 
-
+# This program will continue to run until the user chooses to exit.
 def menu():
     print("1. Add a number to the list")
     print("2. Display the list")
     print("3. Remove a number from the list")
     print("4. Exit")
 
+# A while loop that will continue to run until the user chooses to exit.
 while True:
     menu()
     choice = input("Please enter your choice: ")
